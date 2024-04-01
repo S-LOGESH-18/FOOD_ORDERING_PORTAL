@@ -1,0 +1,27 @@
+.food-card:hover {
+    /* Add styles for the hover effect */
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .food-page-content-container{
+    width: 78vw;
+    height: 78vh;
+  }
+  /* FoodPageContent.css */
+
+.card-container {
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.card-container:hover {
+  transform: scale(1.05); /* Adjust the scale factor as needed */
+}
+
+.enlarged-card {
+  transform: scale(1.2) !important; /* Adjust the scale factor as needed */
+}
+h1{
+  color: black;
+}
